@@ -346,3 +346,10 @@ footer {
 /* Responsive Design Start */
 
 /* Mobile Device */
+@media screen and (max-width: 575.99px) {
+
+    .nav-content,
+    .banner-content {
+        flex-direction: column;
+    }
+}
