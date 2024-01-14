@@ -346,39 +346,3 @@ footer {
 /* Responsive Design Start */
 
 /* Mobile Device */
-@media screen and (max-width: 576px) {
-
-    #header {
-        padding: 35px 45px 50px 45px;
-    }
-
-    .nav-content,
-    .banner-content {
-        flex-direction: column;
-    }
-
-    .nav-menu ul {
-        margin-top: 20px;
-        display: grid;
-        grid-template-columns: repeat(3,1fr);
-        gap: 20px;
-    }
-
-    .banner-text{
-        text-align: center;
-    }
-
-    .banner-discription {
-        margin-top: 0px;
-        width: 358px;
-        font-size: 14px;
-    }
-
-    .banner-title {
-        font-size: 25px;
-        line-height: 30px;
-        margin-bottom: 20px;
-    }
-    
-
-}
