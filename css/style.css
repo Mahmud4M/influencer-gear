@@ -155,7 +155,7 @@ ul {
 
 /* Popular Part Start */
 #popular {
-    padding: 50px 195px;
+    padding: 50px 235px;
 }
 
 .popular-head {
@@ -343,9 +343,6 @@ footer {
     color: #FFF;
 }
 
-
-
-
 /* Responsive Design Start */
 
 /* Mobile Device */
@@ -355,6 +352,7 @@ footer {
     #header {
         padding: 85px 65px 50px 65px;
     }
+
     .nav-content {
         flex-direction: column;
         justify-content: space-between;
