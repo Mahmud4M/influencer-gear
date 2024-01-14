@@ -348,123 +348,37 @@ footer {
 /* Mobile Device */
 @media screen and (max-width: 576px) {
 
-    /* Nav */
     #header {
-        padding: 85px 65px 50px 65px;
+        padding: 35px 45px 50px 45px;
     }
 
-    .nav-content {
-        flex-direction: column;
-        justify-content: space-between;
-    }
-
-    .nav-title {
-        margin-bottom: 15px;
-    }
-
-    /* Banner */
+    .nav-content,
     .banner-content {
         flex-direction: column;
     }
 
-    .banner-text {
-        text-align: center;
-        margin-bottom: 50px;
-    }
-
-    .place-img {
+    .nav-menu ul {
+        margin-top: 20px;
         display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        gap: 30px;
+        grid-template-columns: repeat(3,1fr);
+        gap: 20px;
     }
 
-    /* Popular */
-    #popular {
-        padding: 50px 157px;
-    }
-
-    .pop-card {
-        padding-left: 50px;
-        margin-left: -5rem;
-        grid-template-columns: repeat(1, 1fr);
-    }
-
-    .see-more {
-        margin-top: 50px;
-        margin-right: -54px;
-    }
-
-    /* Feature */
-    .feature-content {
-        flex-direction: column-reverse;
-    }
-
-    .feature-text {
+    .banner-text{
         text-align: center;
     }
 
-    #feature {
-        padding: 50px 35px;
+    .banner-discription {
+        margin-top: 0px;
+        width: 358px;
+        font-size: 14px;
     }
 
-    /* Footer */
-    footer {
-        padding: 100px 100px;
+    .banner-title {
+        font-size: 25px;
+        line-height: 30px;
+        margin-bottom: 20px;
     }
-}
+    
 
-/* Medium or Tablet Divice */
-
-@media screen and (min-width:576.99px) and (max-width:768px) {
-
-    /* Nav */
-    .nav-menu {
-        margin-left: 30rem;
-    }
-
-    .banner-content {
-        gap: 50px;
-    }
-
-    /* Place */
-    .place-img {
-        margin-left: 33rem;
-    }
-
-    .place-img img {
-        margin-right: 4rem;
-    }
-
-    /* Popular */
-    .pop-title {
-        width: 220%;
-    }
-
-    .pop-card {
-        margin-left: -7rem;
-        grid-template-columns: repeat(3, 1fr);
-    }
-
-    .see-more {
-        margin-right: -35rem;
-    }
-
-    /* Feature */
-    #feature {
-        margin: 1rem 18rem;
-        width: 78%;
-        padding: 50px 10px;
-    }
-
-    .feature-content {
-        text-align: center;
-        flex-direction: column-reverse;
-    }
-
-    /* Footer */
-    footer {
-        width: 62.95rem;
-        height: 100%;
-        padding: 100px 100px;
-    }
 }
