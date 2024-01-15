@@ -1,7 +1,7 @@
 /* Responsive Design Start */
 
 /* Mobile Device */
-@media screen and (max-width: 400.99px) {
+@media screen and (max-width: 575px) {
 
     /* Header */
     #header {
