@@ -1,0 +1,141 @@
+/* Responsive Design Start */
+
+/* Mobile Device */
+@media screen and (max-width: 400.99px) {
+
+    /* Header */
+    #header {
+        padding: 50px 120px 50px 120px;
+    }
+
+    /* Nav */
+    .nav-content {
+        flex-direction: column;
+    }
+
+    .nav-menu ul {
+        margin-bottom: 20px;
+    }
+
+    .nav-menu ul li a{
+        margin-left: 12px;
+    }
+
+    .nav-title {
+        margin-bottom: 20px;
+        width: 340px;
+        font-size: 33px;
+    }
+
+    .nav-menu ul li a {
+        margin-left: 10px;
+    }
+
+    /* Banner */
+    .banner-content {
+        flex-direction: column;
+    }
+
+    .banner-content {
+        text-align: center;
+        padding: 0px 65px;
+    }
+
+    .banner-title {
+        width: 98%;
+    }
+
+    .banner-discription {
+        width: 273px;
+        font-size: 15px;
+    }
+
+    .banner-title {
+        font-size: 26px;
+        line-height: 38px;
+    }
+
+    .btn-one {
+        margin-top: 70px;
+    }
+
+    .banner-img {
+        margin: 55px 22px 0px 22px;
+        padding: 10px;
+        background-size: cover;
+    }
+
+    .banner-img img {
+        width: 18rem;
+        height: 16rem;
+        object-fit: cover;
+    }
+
+    /* Place */
+
+    #place {
+        margin-left: -85px;
+        padding: 30px 145px 30px 145px;
+        border: 1px solid #75818f1a;
+        margin-top: 100px;
+    }
+
+    .place-img {
+        display: grid;
+        grid-template-columns: repeat(2, 3fr);
+        gap: 20px;
+    }
+
+    .place-img .one img {
+        margin-left: -65px;
+    }
+
+    /* Popular */
+
+    #popular {
+        padding: 50px 10px;
+    }
+
+    .pop-card {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .see-more {
+        margin-right: 25px;
+    }
+
+    /* Feature */
+    #feature {
+        padding: 60px 24px;
+    }
+
+
+    .feature-content {
+        text-align: center;
+        flex-direction: column-reverse;
+    }
+
+    .feature-head {
+        color: #0A0826;
+        line-height: 47px;
+    }
+
+    .feature-img img {
+        width: 20rem;
+        height: 12rem;
+        object-fit: cover;
+    }
+
+    /* Footer */
+
+    footer {
+        width: 100%;
+        padding: 50px 0px;
+    }
+}
+
+
+/* Small Device Responsive */
+
+/* nav */
+
